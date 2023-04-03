@@ -1,0 +1,1 @@
+This is a personal project to make a horoscope website. Random horoscope generator to come later!

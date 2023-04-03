@@ -1,0 +1,55 @@
+body{
+    display: grid;
+    justify-content: center;
+    background-color: #EAE0DA;
+}
+
+.choice{
+    padding-top: 60px;
+}
+
+.box{
+    text-align: center;
+    height: 780px;
+    width: 700px;
+    border-radius: 30px;
+    background-color: #A0C3D2;
+}
+
+.h-box{
+    display: grid;
+    grid-template-columns: 75px 100px 50px 100px;
+    justify-content: center;
+    background-color: #EAC7C7;
+    margin: 50px auto;
+    height: 450px;
+    width: 500px;
+    border-radius: 30px;
+}
+
+.h-box > button, img{
+    height: 60px;
+    width: 60px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.close{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    float: right;
+    transform: translate(-20px, -130px);
+}
+
+#aqua, #arie, #canc, #capr, #gemi, #leo, #libr, #pisc, #sagi, #scor, #taur, #virg{
+    background-color: #EAC7C7;
+    transform: translate(0, -500px);
+    margin: 50px auto;
+    height: 450px;
+    width: 500px;
+    border-radius: 30px;
+    display:none;
+}
+
